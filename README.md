@@ -1,6 +1,11 @@
 # unity-tbrpg-2d
 A 2D demo for Turnbase RPG project
 
+## Videos
+
+- https://www.youtube.com/watch?v=lOyNDZdEBc8
+- https://www.youtube.com/watch?v=O4hxfeRon_8
+
 ## Art Assets
 
 I've used art assets from
