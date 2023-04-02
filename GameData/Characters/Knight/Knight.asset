@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd4d453785d383b4c91014d5e9089fca, type: 3}
+  m_Name: Knight
+  m_EditorClassIdentifier: 
+  id: Knight
+  title: Knight
+  titles: []
+  description: 
+  descriptions: []
+  tag: 
+  category: 
+  icon: {fileID: 21300000, guid: 430db9d2534c23c42a8903328be6eeeb, type: 3}
+  icon2: {fileID: 0}
+  icon3: {fileID: 0}
+  itemTier: {fileID: 11400000, guid: 7b2ea410eb3cf404fb6987180379f2a5, type: 2}
+  maxStack: 1
+  useFixSellPrice: 0
+  fixSellPrice: 0
+  useFixRewardExp: 0
+  fixRewardExp: 0
+  useFixLevelUpPrice: 0
+  fixLevelUpPrice: 0
+  attributes:
+    hp:
+      minValue: 753
+      maxValue: 10337
+      growth: 1.5
+    pAtk:
+      minValue: 170
+      maxValue: 2334
+      growth: 1.5
+    pDef:
+      minValue: 160
+      maxValue: 2198
+      growth: 1.5
+    pDmgReductionRate:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    mAtk:
+      minValue: 93
+      maxValue: 1282
+      growth: 1.5
+    mDef:
+      minValue: 93
+      maxValue: 1282
+      growth: 1.5
+    mDmgReductionRate:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    allDmgReductionRate:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    spd:
+      minValue: 118
+      maxValue: 1630
+      growth: 1.5
+    eva:
+      minValue: 106
+      maxValue: 1451
+      growth: 1.5
+    acc:
+      minValue: 117
+      maxValue: 1609
+      growth: 1.5
+    critChance:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    critDamageRate:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    blockChance:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    blockDamageRate:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    resistanceChance:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    bloodStealRateByPAtk:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    bloodStealRateByMAtk:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    counterChance:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    counterDamageRate:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+  randomAttributes:
+    minType: 0
+    maxType: 0
+    minHp: 0
+    maxHp: 0
+    minPAtk: 0
+    maxPAtk: 0
+    minPDef: 0
+    maxPDef: 0
+    minPDmgReductionRate: 0
+    maxPDmgReductionRate: 0
+    minMAtk: 0
+    maxMAtk: 0
+    minMDef: 0
+    maxMDef: 0
+    minMDmgReductionRate: 0
+    maxMDmgReductionRate: 0
+    minAllDmgReductionRate: 0
+    maxAllDmgReductionRate: 0
+    minSpd: 0
+    maxSpd: 0
+    minEva: 0
+    maxEva: 0
+    minAcc: 0
+    maxAcc: 0
+    minCritChance: 0
+    maxCritChance: 0
+    minCritDamageRate: 0
+    maxCritDamageRate: 0
+    minBlockChance: 0
+    maxBlockChance: 0
+    minBlockDamageRate: 0
+    maxBlockDamageRate: 0
+    minResistanceChance: 0
+    maxResistanceChance: 0
+    minBloodStealRateByPAtk: 0
+    maxBloodStealRateByPAtk: 0
+    minBloodStealRateByMAtk: 0
+    maxBloodStealRateByMAtk: 0
+    minCounterChance: 0
+    maxCounterChance: 0
+    minCounterDamageRate: 0
+    maxCounterDamageRate: 0
+  hpRateToSetMax: 1
+  pAtkRateToSetMax: 1
+  pDefRateToSetMax: 1
+  mAtkRateToSetMax: 1
+  mDefRateToSetMax: 1
+  spdRateToSetMax: 1
+  evaRateToSetMax: 1
+  accRateToSetMax: 1
+  createEvolveItems: []
+  elemental: {fileID: 0}
+  attackAnimations:
+  - {fileID: 11400000, guid: e646b57b062157c4386d4e89d752164e, type: 2}
+  skills: []
+  model: {fileID: 6070534364700303579, guid: e75987ef3172efc42aaec1dbe55f4476, type: 3}
+  evolveInfo:
+    requiredMaterials: []
+    evolveItem: {fileID: 0}

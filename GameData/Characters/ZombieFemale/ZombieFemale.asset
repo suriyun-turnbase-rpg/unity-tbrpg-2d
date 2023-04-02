@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd4d453785d383b4c91014d5e9089fca, type: 3}
+  m_Name: ZombieFemale
+  m_EditorClassIdentifier: 
+  id: ZombieFemale
+  title: Zombie Female
+  titles: []
+  description: 
+  descriptions: []
+  tag: 
+  category: 
+  icon: {fileID: 21300000, guid: 98abd51b6dfc3de489fd5576eefd5412, type: 3}
+  icon2: {fileID: 0}
+  icon3: {fileID: 0}
+  itemTier: {fileID: 11400000, guid: ca503a7be248b784ebe10c1df6982e84, type: 2}
+  maxStack: 1
+  useFixSellPrice: 1
+  fixSellPrice: 1000000
+  useFixRewardExp: 1
+  fixRewardExp: 1000000
+  useFixLevelUpPrice: 0
+  fixLevelUpPrice: 0
+  attributes:
+    hp:
+      minValue: 725
+      maxValue: 1813
+      growth: 1.5
+    pAtk:
+      minValue: 152
+      maxValue: 380
+      growth: 1.5
+    pDef:
+      minValue: 117
+      maxValue: 293
+      growth: 1.5
+    pDmgReductionRate:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    mAtk:
+      minValue: 80
+      maxValue: 200
+      growth: 1.5
+    mDef:
+      minValue: 81
+      maxValue: 203
+      growth: 1.5
+    mDmgReductionRate:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    allDmgReductionRate:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    spd:
+      minValue: 126
+      maxValue: 315
+      growth: 1.5
+    eva:
+      minValue: 92
+      maxValue: 230
+      growth: 1.5
+    acc:
+      minValue: 82
+      maxValue: 205
+      growth: 1.5
+    critChance:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    critDamageRate:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    blockChance:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    blockDamageRate:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    resistanceChance:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    bloodStealRateByPAtk:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    bloodStealRateByMAtk:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    counterChance:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+    counterDamageRate:
+      minValue: 0
+      maxValue: 0
+      growth: 0
+  randomAttributes:
+    minType: 0
+    maxType: 0
+    minHp: 0
+    maxHp: 0
+    minPAtk: 0
+    maxPAtk: 0
+    minPDef: 0
+    maxPDef: 0
+    minPDmgReductionRate: 0
+    maxPDmgReductionRate: 0
+    minMAtk: 0
+    maxMAtk: 0
+    minMDef: 0
+    maxMDef: 0
+    minMDmgReductionRate: 0
+    maxMDmgReductionRate: 0
+    minAllDmgReductionRate: 0
+    maxAllDmgReductionRate: 0
+    minSpd: 0
+    maxSpd: 0
+    minEva: 0
+    maxEva: 0
+    minAcc: 0
+    maxAcc: 0
+    minCritChance: 0
+    maxCritChance: 0
+    minCritDamageRate: 0
+    maxCritDamageRate: 0
+    minBlockChance: 0
+    maxBlockChance: 0
+    minBlockDamageRate: 0
+    maxBlockDamageRate: 0
+    minResistanceChance: 0
+    maxResistanceChance: 0
+    minBloodStealRateByPAtk: 0
+    maxBloodStealRateByPAtk: 0
+    minBloodStealRateByMAtk: 0
+    maxBloodStealRateByMAtk: 0
+    minCounterChance: 0
+    maxCounterChance: 0
+    minCounterDamageRate: 0
+    maxCounterDamageRate: 0
+  hpRateToSetMax: 2.5
+  pAtkRateToSetMax: 2.5
+  pDefRateToSetMax: 2.5
+  mAtkRateToSetMax: 2.5
+  mDefRateToSetMax: 2.5
+  spdRateToSetMax: 2.5
+  evaRateToSetMax: 2.5
+  accRateToSetMax: 2.5
+  createEvolveItems: []
+  elemental: {fileID: 0}
+  attackAnimations:
+  - {fileID: 11400000, guid: 743ce1b04f4153f42ba1056221d7b308, type: 2}
+  skills: []
+  model: {fileID: 9015220892203567919, guid: b75a5cad708b31647bef8244aa868de9, type: 3}
+  evolveInfo:
+    requiredMaterials: []
+    evolveItem: {fileID: 0}

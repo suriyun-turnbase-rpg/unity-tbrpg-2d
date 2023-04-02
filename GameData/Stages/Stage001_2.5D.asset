@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cba5e1547d8582f478177d8ceb4b93a3, type: 3}
+  m_Name: Stage001_2.5D
+  m_EditorClassIdentifier: 
+  id: 
+  title: Stage 01 (2.5D)
+  titles: []
+  description: No Description
+  descriptions: []
+  tag: 
+  category: 
+  icon: {fileID: 0}
+  icon2: {fileID: 0}
+  icon3: {fileID: 0}
+  recommendBattlePoint: 1000
+  requireStamina: 2
+  requireCustomStamina: 
+  availabilities: []
+  hasAvailableDate: 0
+  startYear: 1
+  startMonth: 1
+  startDay: 1
+  durationDays: 0
+  stageNumber: 01
+  stageType: 0
+  randomCustomCurrencies: []
+  randomSoftCurrencyMinAmount: 500
+  randomSoftCurrencyMaxAmount: 1000
+  rewardPlayerExp: 20
+  rewardClanExp: 0
+  rewardCharacterExp: 100
+  rewardItems: []
+  firstClearRewardCustomCurrencies: []
+  firstClearRewardSoftCurrency: 0
+  firstClearRewardHardCurrency: 0
+  firstClearRewardPlayerExp: 0
+  firstClearRewardItems: []
+  unlocked: 1
+  unlockStages: []
+  environment: {fileID: 11400000, guid: 556bdaa599db2b047b97b333057400d7, type: 2}
+  waves:
+  - useRandomFoes: 1
+    foes: []
+  - useRandomFoes: 1
+    foes: []
+  - useRandomFoes: 1
+    foes: []
+  randomFoes:
+  - foes:
+    - character: {fileID: 11400000, guid: 945a0df18a0ba72488173a78b6609559, type: 2}
+      level: 1
+      isBoss: 0
+    - character: {fileID: 11400000, guid: 2fccb649bdad6714bb7a5395bcad8921, type: 2}
+      level: 2
+      isBoss: 0
+    - character: {fileID: 11400000, guid: 2fccb649bdad6714bb7a5395bcad8921, type: 2}
+      level: 1
+      isBoss: 0
+    - character: {fileID: 0}
+      level: 0
+      isBoss: 0
+    - character: {fileID: 0}
+      level: 0
+      isBoss: 0
+    randomWeight: 40
+  - foes:
+    - character: {fileID: 0}
+      level: 0
+      isBoss: 0
+    - character: {fileID: 11400000, guid: 945a0df18a0ba72488173a78b6609559, type: 2}
+      level: 1
+      isBoss: 0
+    - character: {fileID: 0}
+      level: 0
+      isBoss: 0
+    - character: {fileID: 11400000, guid: 945a0df18a0ba72488173a78b6609559, type: 2}
+      level: 2
+      isBoss: 0
+    - character: {fileID: 11400000, guid: 2fccb649bdad6714bb7a5395bcad8921, type: 2}
+      level: 2
+      isBoss: 0
+    randomWeight: 40
+  - foes:
+    - character: {fileID: 0}
+      level: 0
+      isBoss: 0
+    - character: {fileID: 11400000, guid: 2fccb649bdad6714bb7a5395bcad8921, type: 2}
+      level: 2
+      isBoss: 0
+    - character: {fileID: 0}
+      level: 0
+      isBoss: 0
+    - character: {fileID: 11400000, guid: 945a0df18a0ba72488173a78b6609559, type: 2}
+      level: 2
+      isBoss: 0
+    - character: {fileID: 0}
+      level: 0
+      isBoss: 0
+    randomWeight: 20

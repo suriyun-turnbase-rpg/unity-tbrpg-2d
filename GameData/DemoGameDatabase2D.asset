@@ -1,0 +1,251 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab232b4dcac7cd64ea772b2f82173081, type: 3}
+  m_Name: DemoGameDatabase2D
+  m_EditorClassIdentifier: 
+  googleAdRewards:
+  - id: SC
+    rewardSoftCurrency: 1
+    rewardHardCurrency: 0
+    rewardStageStamina: 0
+    rewardArenaStamina: 0
+  - id: HC
+    rewardSoftCurrency: 0
+    rewardHardCurrency: 1
+    rewardStageStamina: 0
+    rewardArenaStamina: 0
+  - id: ST
+    rewardSoftCurrency: 0
+    rewardHardCurrency: 0
+    rewardStageStamina: 1
+    rewardArenaStamina: 0
+  playerMaxLevel: 1000
+  playerExpTable:
+    minValue: 20
+    maxValue: 2000000
+    growth: 2
+  softCurrency:
+    id: GOLD
+    icon: {fileID: 21300000, guid: 74e0bc6e889f16546bfc7f28d7119402, type: 3}
+    icon2: {fileID: 0}
+    icon3: {fileID: 0}
+    startAmount: 10000
+  hardCurrency:
+    id: GEM
+    icon: {fileID: 21300000, guid: af9dd3fb02788de45bd0b30849865d82, type: 3}
+    icon2: {fileID: 0}
+    icon3: {fileID: 0}
+    startAmount: 1000
+  customCurrencies:
+  - id: CLAN_COIN
+    icon: {fileID: 21300000, guid: 19ffa755264c91a48a90e8c9cfd5eb90, type: 3}
+    icon2: {fileID: 0}
+    icon3: {fileID: 0}
+    startAmount: 0
+  stageStamina:
+    id: STAGE_STAMINA
+    icon: {fileID: 21300000, guid: 7aa250f1b825cf24d8154d504c4c9195, type: 3}
+    icon2: {fileID: 0}
+    icon3: {fileID: 0}
+    maxAmountTable:
+      minValue: 15
+      maxValue: 430
+      growth: 2.5
+    refillPrices: 0500000005000000050000000a0000000a0000000a0000000f000000
+    recoverUnit: 1
+    recoverDuration: 3
+  arenaStamina:
+    id: ARENA_STAMINA
+    icon: {fileID: 21300000, guid: 0e829952d93c2fd4d90bd748a04cb772, type: 3}
+    icon2: {fileID: 0}
+    icon3: {fileID: 0}
+    maxAmountTable:
+      minValue: 5
+      maxValue: 5
+      growth: 1
+    refillPrices: 
+    recoverUnit: 1
+    recoverDuration: 10
+  customStaminas:
+  - id: TOWER_STAMINA
+    icon: {fileID: 21300000, guid: a5c28b1a297751d43ad99e12795883b3, type: 3}
+    icon2: {fileID: 0}
+    icon3: {fileID: 0}
+    maxAmountTable:
+      minValue: 5
+      maxValue: 5
+      growth: 1
+    refillPrices: 
+    recoverUnit: 1
+    recoverDuration: 10
+  - id: RAID_STAMINA
+    icon: {fileID: 21300000, guid: f91c2daee387d344fbc898cdb488d7a0, type: 3}
+    icon2: {fileID: 0}
+    icon3: {fileID: 0}
+    maxAmountTable:
+      minValue: 5
+      maxValue: 5
+      growth: 1
+    refillPrices: 
+    recoverUnit: 1
+    recoverDuration: 10
+  formations:
+  - id: STAGE_FORMATION_A
+    title: A
+    icon: {fileID: 0}
+    formationType: 0
+  - id: STAGE_FORMATION_B
+    title: B
+    icon: {fileID: 0}
+    formationType: 0
+  - id: STAGE_FORMATION_C
+    title: C
+    icon: {fileID: 0}
+    formationType: 0
+  - id: ARENA_FORMATION
+    title: Arena
+    icon: {fileID: 0}
+    formationType: 1
+  characterLevelUpMaterialFilter:
+    showCharacter: 1
+    showEquipment: 0
+    showMaterial: 0
+    dontShowInTeamCharacter: 0
+    dontShowEquippedEquipment: 0
+    category: 
+  equipmentLevelUpMaterialFilter:
+    showCharacter: 0
+    showEquipment: 1
+    showMaterial: 1
+    dontShowInTeamCharacter: 0
+    dontShowEquippedEquipment: 0
+    category: 
+  items:
+  - {fileID: 11400000, guid: fb129bd44c86a1d419cc7db4675dbc9b, type: 2}
+  - {fileID: 11400000, guid: fb12e2a6a6b7d0647bb67123b5c67517, type: 2}
+  - {fileID: 11400000, guid: 20fdacf0a9a777a478ad82d36e047b61, type: 2}
+  - {fileID: 11400000, guid: 2fccb649bdad6714bb7a5395bcad8921, type: 2}
+  - {fileID: 11400000, guid: 945a0df18a0ba72488173a78b6609559, type: 2}
+  stages:
+  - {fileID: 11400000, guid: 32b6eb25dbbd90d4a9cbd7b87f70358a, type: 2}
+  - {fileID: 11400000, guid: ea612852237b7df4a94ecf5b22198b75, type: 2}
+  raidBossStages: []
+  clanBossStages: []
+  achievements: []
+  itemCrafts: []
+  lootBoxes: []
+  randomStores: []
+  inGamePackages: []
+  iapPackages: []
+  hardToSoftCurrencyConversion: 0
+  startItems: []
+  startCharacters:
+  - {fileID: 11400000, guid: fb129bd44c86a1d419cc7db4675dbc9b, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: fb12e2a6a6b7d0647bb67123b5c67517, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 20fdacf0a9a777a478ad82d36e047b61, type: 2}
+  unlockStages:
+  - {fileID: 11400000, guid: 32b6eb25dbbd90d4a9cbd7b87f70358a, type: 2}
+  - {fileID: 11400000, guid: ea612852237b7df4a94ecf5b22198b75, type: 2}
+  fakePlayers: []
+  characterBaseAttributes:
+    hp: 0
+    pAtk: 0
+    pDef: 0
+    pDmgReductionRate: 0
+    mAtk: 0
+    mDef: 0
+    mDmgReductionRate: 0
+    allDmgReductionRate: 0
+    spd: 0
+    eva: 0
+    acc: 0
+    hpRate: 0
+    pAtkRate: 0
+    pDefRate: 0
+    mAtkRate: 0
+    mDefRate: 0
+    spdRate: 0
+    evaRate: 0
+    accRate: 0
+    critChance: 0.05
+    critDamageRate: 1.5
+    blockChance: 0.05
+    blockDamageRate: 1.5
+    resistanceChance: 0
+    bloodStealRateByPAtk: 0
+    bloodStealRateByMAtk: 0
+    counterChance: 0
+    counterDamageRate: 0
+  revivePrice: 5
+  minAtkVaryRate: 0.07
+  maxAtkVaryRate: 0.07
+  resetItemLevelAfterEvolve: 1
+  arenaRanks:
+  - {fileID: 11400000, guid: ee6fbf55100b0ce419b06ec0f0d34739, type: 2}
+  - {fileID: 11400000, guid: 10916befdc91b3c469d53c54bbcd2ff3, type: 2}
+  - {fileID: 11400000, guid: fd481a3d96916de47b8bd8c729a20fc0, type: 2}
+  - {fileID: 11400000, guid: 9a646350d5c5af54b8b67cb7e6b07f07, type: 2}
+  - {fileID: 11400000, guid: a88cf4f80ceeabb408e60c821a80ae59, type: 2}
+  arenaWinScoreIncrease: 50
+  arenaLoseScoreDecrease: 25
+  arenaEnvironment: {fileID: 11400000, guid: 9fb2f41ae9038f14895dc9dd00f69441, type: 2}
+  clanMaxLevel: 50
+  clanExpTable:
+    minValue: 20
+    maxValue: 1000
+    growth: 1.5
+  createClanCurrencyType: 0
+  createClanCurrencyAmount: 10000
+  clanCheckinRewardClanExp: 4
+  clanCheckinRewardCurrencies: []
+  clanDonations:
+  - id: GOLD
+    icon: {fileID: 21300000, guid: 74e0bc6e889f16546bfc7f28d7119402, type: 3}
+    requireCurrencyId: GOLD
+    requireCurrencyAmount: 500
+    rewardCurrencies: []
+    rewardClanExp: 8
+  - id: GEM
+    icon: {fileID: 21300000, guid: af9dd3fb02788de45bd0b30849865d82, type: 3}
+    requireCurrencyId: GEM
+    requireCurrencyAmount: 5
+    rewardCurrencies: []
+    rewardClanExp: 16
+  maxClanDonation: 5
+  dailyRewards: []
+  fortuneWheels: []
+  playerIcons:
+  - {fileID: 11400000, guid: e22afabddd39ebb478a75fd9e20a0115, type: 2}
+  - {fileID: 11400000, guid: 7ee86d829dfd41945a83b7627076c895, type: 2}
+  - {fileID: 11400000, guid: 2812dfd3d6ef0ea47b40720d8b1d0606, type: 2}
+  - {fileID: 11400000, guid: 2881bc4493d52c34bb43e35509f2254f, type: 2}
+  - {fileID: 11400000, guid: 6ca07805803015e48b33466bff35a28e, type: 2}
+  - {fileID: 11400000, guid: d6d12b78f6b3a5b4d9ccf99e2fa10456, type: 2}
+  playerFrames:
+  - {fileID: 11400000, guid: 4ca52efc5e0ef4e459ce495bb0968dc3, type: 2}
+  - {fileID: 11400000, guid: 70482a5d8b4c83e4482df9763156fab1, type: 2}
+  - {fileID: 11400000, guid: 8ff396e0cf546364ca7273061aa8ea64, type: 2}
+  playerTitles: []
+  clanIcons:
+  - {fileID: 11400000, guid: e22afabddd39ebb478a75fd9e20a0115, type: 2}
+  - {fileID: 11400000, guid: 7ee86d829dfd41945a83b7627076c895, type: 2}
+  - {fileID: 11400000, guid: 2812dfd3d6ef0ea47b40720d8b1d0606, type: 2}
+  - {fileID: 11400000, guid: 2881bc4493d52c34bb43e35509f2254f, type: 2}
+  - {fileID: 11400000, guid: 6ca07805803015e48b33466bff35a28e, type: 2}
+  - {fileID: 11400000, guid: d6d12b78f6b3a5b4d9ccf99e2fa10456, type: 2}
+  clanFrames:
+  - {fileID: 11400000, guid: 4ca52efc5e0ef4e459ce495bb0968dc3, type: 2}
+  - {fileID: 11400000, guid: 70482a5d8b4c83e4482df9763156fab1, type: 2}
+  - {fileID: 11400000, guid: 8ff396e0cf546364ca7273061aa8ea64, type: 2}
+  clanTitles: []
