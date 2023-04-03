@@ -49,8 +49,23 @@ MonoBehaviour:
   unlockStages: []
   environment: {fileID: 11400000, guid: 9fb2f41ae9038f14895dc9dd00f69441, type: 2}
   waves:
-  - useRandomFoes: 1
-    foes: []
+  - useRandomFoes: 0
+    foes:
+    - character: {fileID: 11400000, guid: 945a0df18a0ba72488173a78b6609559, type: 2}
+      level: 1
+      isBoss: 0
+    - character: {fileID: 0}
+      level: 0
+      isBoss: 0
+    - character: {fileID: 11400000, guid: 945a0df18a0ba72488173a78b6609559, type: 2}
+      level: 1
+      isBoss: 0
+    - character: {fileID: 0}
+      level: 0
+      isBoss: 0
+    - character: {fileID: 11400000, guid: 2fccb649bdad6714bb7a5395bcad8921, type: 2}
+      level: 0
+      isBoss: 0
   - useRandomFoes: 1
     foes: []
   - useRandomFoes: 1

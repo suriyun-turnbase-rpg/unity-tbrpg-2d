@@ -171,3 +171,4 @@ MonoBehaviour:
   evolveInfo:
     requiredMaterials: []
     evolveItem: {fileID: 0}
+  attackTargetMode: 1

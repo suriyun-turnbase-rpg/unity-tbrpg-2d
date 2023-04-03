@@ -36931,13 +36931,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4347721675df9c499d635af42c4a922, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  containers:
-  - {fileID: 4670408188494880}
-  - {fileID: 4601262337624840}
-  - {fileID: 4512816935680100}
-  - {fileID: 4586669122533020}
-  - {fileID: 4519084735772322}
-  helperContainer: {fileID: 4184479936547690}
+  containers: []
+  helperContainer: {fileID: 0}
+  characterContainers:
+  - container: {fileID: 4670408188494880}
+    priority: 0
+  - container: {fileID: 4601262337624840}
+    priority: 0
+  - container: {fileID: 4512816935680100}
+    priority: 0
+  - container: {fileID: 4586669122533020}
+    priority: 1
+  - container: {fileID: 4519084735772322}
+    priority: 1
+  helperCharacterContainer:
+    container: {fileID: 4184479936547690}
+    priority: 1
   uiFormationCharacters: {fileID: 0}
   foeFormation: {fileID: 0}
 --- !u!114 &114301387359470310
@@ -37018,13 +37027,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4347721675df9c499d635af42c4a922, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  containers:
-  - {fileID: 4029425664729591}
-  - {fileID: 4599859790472823}
-  - {fileID: 4247732933642273}
-  - {fileID: 4187645943795035}
-  - {fileID: 4435620081932807}
-  helperContainer: {fileID: 5767358984155698043}
+  containers: []
+  helperContainer: {fileID: 0}
+  characterContainers:
+  - container: {fileID: 4029425664729591}
+    priority: 0
+  - container: {fileID: 4599859790472823}
+    priority: 0
+  - container: {fileID: 4247732933642273}
+    priority: 0
+  - container: {fileID: 4187645943795035}
+    priority: 1
+  - container: {fileID: 4435620081932807}
+    priority: 1
+  helperCharacterContainer:
+    container: {fileID: 5767358984155698043}
+    priority: 1
   uiFormationCharacters: {fileID: 0}
   foeFormation: {fileID: 0}
 --- !u!114 &114531217508455026
